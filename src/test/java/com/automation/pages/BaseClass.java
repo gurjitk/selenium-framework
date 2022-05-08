@@ -49,6 +49,7 @@ public class BaseClass {
 	//	driver=BrowserFactory.startapplication(driver, config.getBrowser(), config.geturl());
 		
 		driver=BrowserFactory.startapplication(driver, browser, url);
+		
 	}
 	
 	@AfterClass
